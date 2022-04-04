@@ -178,8 +178,9 @@ class _UiDesignState extends State<UiDesign> {
                             setState(()=>_obscuretext = !_obscuretext);
                             },
                               child:Icon(
-                                _obscuretext ? Icons.visibility : Icons.visibility_off
 
+                                _obscuretext ? Icons.visibility : Icons.visibility_off,
+                                color: Colors.grey,
                               ),
 
                               ),
